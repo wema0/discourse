@@ -24,51 +24,6 @@ widgetTest("listing actions", {
   }
 });
 
-widgetTest("undo", {
-  template:
-    '{{mount-widget widget="actions-summary" args=args undoPostAction=undoPostAction}}',
-  beforeEach() {
-    this.set("args", {
-      actionsSummary: [
-        { action: "off_topic", description: "very off topic", canUndo: true }
-      ]
-    });
-
-    this.set("undoPostAction", () => (this.undid = true));
-  },
-  async test(assert) {
-    assert.equal(find(".post-actions .post-action").length, 1);
-
-    await click(".action-link.undo");
-    assert.ok(this.undid, "it triggered the action");
-  }
-});
-
-widgetTest("deferFlags", {
-  template:
-    '{{mount-widget widget="actions-summary" args=args deferPostActionFlags=(action "deferPostActionFlags")}}',
-  beforeEach() {
-    this.set("args", {
-      actionsSummary: [
-        {
-          action: "off_topic",
-          description: "very off topic",
-          canIgnoreFlags: true,
-          count: 1
-        }
-      ]
-    });
-
-    this.on("deferPostActionFlags", () => (this.deferred = true));
-  },
-  async test(assert) {
-    assert.equal(find(".post-actions .post-action").length, 1);
-
-    await click(".action-link.defer-flags");
-    assert.ok(this.deferred, "it triggered the action");
-  }
-});
-
 widgetTest("post deleted", {
   template: '{{mount-widget widget="actions-summary" args=args}}',
   beforeEach() {

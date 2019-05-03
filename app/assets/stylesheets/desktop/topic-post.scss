@@ -46,13 +46,13 @@ section.post-menu-area {
 
 nav.post-controls {
   padding: 0;
-  .like-button {
-    // Like button wrapper
+
+  // Some buttons can be doubled up, like likes or flags
+  .double-button {
     display: inline-flex;
     color: $primary-low-mid;
     margin-right: 0.15em;
     &:hover {
-      // Like button wrapper on hover
       button {
         background: $primary-low;
         color: $primary-medium;
@@ -93,7 +93,7 @@ nav.post-controls {
         // Disabled like button
         cursor: not-allowed;
       }
-      &.like-count {
+      &.button-count {
         // Like count button
         &:not(.my-likes) {
           padding-right: 0;

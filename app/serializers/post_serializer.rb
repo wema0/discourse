@@ -74,7 +74,10 @@ class PostSerializer < BasicPostSerializer
              :notice_args,
              :last_wiki_edit,
              :locked,
-             :excerpt
+             :excerpt,
+             :reviewable_id,
+             :reviewable_score_count,
+             :reviewable_score_pending_count
 
   def initialize(object, opts)
     super(object, opts)
@@ -252,14 +255,6 @@ class PostSerializer < BasicPostSerializer
         summary.delete(:can_act)
       end
 
-      # The following only applies if you're logged in
-      if summary[:can_act] && scope.current_user.present?
-        summary[:can_defer_flags] = true if scope.is_staff? &&
-                                                   PostActionType.flag_types_without_custom.values.include?(id) &&
-                                                   active_flags.present? && active_flags.has_key?(id) &&
-                                                   active_flags[id] > 0
-      end
-
       if actions.present? && actions.has_key?(id)
         summary[:acted] = true
         summary[:can_undo] = true if scope.can_delete?(actions[id])
@@ -417,6 +412,33 @@ class PostSerializer < BasicPostSerializer
     object.hidden
   end
 
+  def reviewable_id
+    for_post = @topic_view.reviewable_counts[object.id]
+    for_post ? for_post[:reviewable_id] : 0
+  end
+
+  def include_reviewable_id?
+    @topic_view && @topic_view.can_review_topic
+  end
+
+  def reviewable_score_count
+    for_post = @topic_view.reviewable_counts[object.id]
+    for_post ? for_post[:total] : 0
+  end
+
+  def include_reviewable_score_count?
+    @topic_view && @topic_view.can_review_topic
+  end
+
+  def reviewable_score_pending_count
+    for_post = @topic_view.reviewable_counts[object.id]
+    for_post ? for_post[:pending] : 0
+  end
+
+  def include_reviewable_score_pending_count?
+    @topic_view && @topic_view.can_review_topic
+  end
+
   private
 
   def user_custom_fields_object
@@ -431,10 +453,6 @@ class PostSerializer < BasicPostSerializer
 
   def post_actions
     @post_actions ||= (@topic_view&.all_post_actions || {})[object.id]
-  end
-
-  def active_flags
-    @active_flags ||= (@topic_view&.all_active_flags || {})[object.id]
   end
 
   def post_custom_fields

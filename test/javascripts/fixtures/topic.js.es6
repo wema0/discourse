@@ -89,50 +89,43 @@ export default {
               id: 2,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: false,
@@ -193,50 +186,43 @@ export default {
               id: 2,
               count: 4,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: false,
@@ -307,50 +293,43 @@ export default {
               id: 2,
               count: 4,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 1,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: true,
@@ -411,50 +390,43 @@ export default {
               id: 2,
               count: 7,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: false,
@@ -517,50 +489,43 @@ export default {
               id: 2,
               count: 2,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: false,
@@ -633,50 +598,43 @@ export default {
               id: 2,
               count: 1,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: true,
@@ -737,50 +695,43 @@ export default {
               id: 2,
               count: 1,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: false,
@@ -847,50 +798,43 @@ export default {
               id: 2,
               count: 1,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: true,
@@ -942,50 +886,43 @@ export default {
               id: 2,
               count: 1,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: false,
@@ -1042,50 +979,43 @@ export default {
               id: 2,
               count: 1,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: false,
@@ -1142,50 +1072,43 @@ export default {
               id: 2,
               count: 1,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: true,
@@ -1237,50 +1160,43 @@ export default {
               id: 2,
               count: 1,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: false,
@@ -1332,50 +1248,43 @@ export default {
               id: 2,
               count: 3,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: false,
@@ -1436,50 +1345,43 @@ export default {
               id: 2,
               count: 3,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: false,
@@ -1531,50 +1433,43 @@ export default {
               id: 2,
               count: 1,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: false,
@@ -1626,50 +1521,43 @@ export default {
               id: 2,
               count: 1,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: false,
@@ -1721,50 +1609,43 @@ export default {
               id: 2,
               count: 1,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: false,
@@ -1821,50 +1702,43 @@ export default {
               id: 2,
               count: 7,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: true,
@@ -1921,50 +1795,43 @@ export default {
               id: 2,
               count: 1,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: false,
@@ -2025,50 +1892,43 @@ export default {
               id: 2,
               count: 1,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 3,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 4,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 5,
               count: 0,
               hidden: true,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 6,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 7,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             },
             {
               id: 8,
               count: 0,
               hidden: false,
-              can_act: true,
-              can_defer_flags: false
+              can_act: true
             }
           ],
           moderator: false,

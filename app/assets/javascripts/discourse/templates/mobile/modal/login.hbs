@@ -49,10 +49,6 @@
   {{/d-modal-body}}
 
   <div class="modal-footer">
-    {{#if authenticate}}
-      {{i18n "login.authenticating"}}
-    {{/if}}
-
     {{#if canLoginLocal}}
       {{d-button action=(action "login")
         icon="unlock"
@@ -67,6 +63,6 @@
       {{/if}}
     {{/if}}
   </div>
-  <div class="auth-message">{{authMessage}}</div>
+
   <div id='login-alert' class={{alertClass}}>{{alert}}</div>
 {{/login-modal}}
